@@ -14,6 +14,10 @@ const routes: Routes = [
     redirectTo: '/home'
   },
   {
+    path:"journey",
+    loadChildren: () => import("./modules/journey/journey.module").then(x=>x.JourneyModule)
+  },
+  {
     path: "**",
     component: NotFoundComponent
   }
