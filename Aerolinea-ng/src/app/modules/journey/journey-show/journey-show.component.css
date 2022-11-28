@@ -1,3 +1,11 @@
 .error-message label{
     color: red;
 }
+
+input{
+    text-transform: uppercase;
+}
+
+.principal{
+    height: 500px;
+}
